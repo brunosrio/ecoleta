@@ -1,0 +1,39 @@
+
+:root {
+    --title-color: hsl(262, 43%, 23%);
+    --primary-color: #34cb79;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    /*Limita o crescimento da caixa*/
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #f0f0f5;
+    --webkit-font-smoothig: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color);
+    font-family: 'Ubuntu', sans-serif;
+}
+/*BOX MODEL
+
+Modelo de caixa 
+Toda caixa tem
+largura, altura, espaçamento, preenchimentos
+bordas, cor, fundo, maneira que é vista pelo html (display)
+
+*/
